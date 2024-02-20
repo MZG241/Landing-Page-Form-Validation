@@ -1,0 +1,115 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: Lora;
+}
+
+span{
+color:rgb(34,193,195);
+}
+
+.menu a{
+color:#ffffff;
+background-color: #002a00;
+text-decoration: none;
+padding: 20px;
+font-size: 15px;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header{
+padding: 30px;
+}
+
+.menu a:hover{
+background-color:rgb(41,202,142);
+}
+
+.content{
+height: 600px;
+background-image: url(images/background3.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+.content a {
+padding:10px;
+border: 1px solid white;
+}
+
+
+.content h1{
+ color:#ffffff;
+ font-size:40px;
+ margin-left: 200px;
+}
+
+.content p{
+    color:#ffffff;
+    margin-left: 200px;
+   }
+
+
+   .content a{
+    color:#ffffff;
+    margin-left: 200px;
+    text-decoration: none;
+    border-radius: 30px;
+   }
+
+   footer{
+padding:30px;
+display:flex;
+justify-content: center;
+align-items: center;
+   }
+
+.teachers{
+display: flex;
+justify-content: center;
+align-items: center;
+height:400px;
+width: auto;
+
+}
+figcaption
+{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+
+}
+
+form{
+padding:50px;
+border: 2px solid;
+border-radius: 30px;
+box-shadow: 0 0 10px grey;
+}
+
+input{
+    padding:10px;
+}
+
+img{
+width:25%;
+height:25%;
+}

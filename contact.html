@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Practical Exercise</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+<!-- Logo-->
+<div class="logo">
+ <h1>My <span>Company</span></h1>
+</div>
+
+<!-- Menu -->
+<div class="menu">
+<a href="index.html">Home</a>
+<a href="">About</a>
+<a href="Teacher.html">Our teachers</a> 
+<a href="">Courses</a>
+<a href="contact.html">Contact</a>
+</div>
+ </nav>
+</header> 
+
+<div class="content">
+    <br><br><br><br><br><br><br><br><br>
+    
+    <h1> Distance Learning <br> Education Center</h1>
+    
+    <p> Our online courses are designed to fit in your industry supporting all-round <br> with latest technologies.  </p>
+    <br> 
+    
+    <a href="">Discover more</a>
+    </div>
+
+<div class="Contact">
+<br> <br>
+    <h1 style="text-align: center;">Contact us</h1>
+
+
+
+    <div class="information">
+
+
+  <!--- Form -->
+  <form name="myform"  onsubmit="return validation()"  action="validation.php" method="post">
+
+    <label for="">Full Name :</label> <br>
+
+    <input type="text" placeholder="Enter your name." name="fname" > <br>
+
+    <label for="">Email :</label> <br>
+
+    <input type="email" placeholder="Enter your email." name="mail"> <br>
+
+    <label for="">Password :</label> <br>
+
+    <input type="password"  name="psw" id="password" > <br> 
+
+    <input type="checkbox"  onclick="Show()" > Show/Hide Password <br> <br>
+
+    <input type="submit" name="validate" value="Enter" style="padding:10px;">
+
+   </form>
+
+    </div>
+  
+
+</div>
+ <br><br> <br> <hr>
+<footer>
+
+    <h5> &copy;MOUKALA241 - All Rights Reserved.</h5>
+</footer>
+
+
+<script src="validation.js"></script>
+<script src="show.js"></script>
+</body>
+</html>
